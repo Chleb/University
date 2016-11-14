@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1428867109 source:/home/slawek/Pulpit/Uczelnia/SŁAWEK!/Kurs C++/Laboratorium 6/main.cpp
+	<iostream>
+	"wyrazenie.hpp"
+
+1428867109 /home/slawek/Pulpit/Uczelnia/SŁAWEK!/Kurs C++/Laboratorium 6/wyrazenie.hpp
+	<sstream>
+	<vector>
+	<cmath>
+
+1428757419 source:/home/slawek/Pulpit/Uczelnia/SŁAWEK!/Kurs C++/Laboratorium 6/wyrazenie.cpp
+	"wyrazenie.hpp"
+
