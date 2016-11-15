@@ -1,10 +1,3 @@
-// Lista 1
-// Program licz¹cy znaki, bia³e znaki i iloœæ linii.
-// Autor: Tomasz Musia³a
-//
-//
-
-
 #include <iostream>
 #include <string>
 
@@ -12,9 +5,9 @@ using namespace std;
 
 int main()
 {
-    int characters = 0;// iloœæ wszystkich znaków
-    int whites = 0;    // iloœæ znaków bia³ych - uwaga !Program nie liczy znaku EOF!
-    int lines = 0;     // iloœæ linii
+    int characters = 0;// iloÅ“Ã¦ wszystkich znakÃ³w
+    int whites = 0;    // iloÅ“Ã¦ znakÃ³w biaÂ³ych - uwaga !Program nie liczy znaku EOF!
+    int lines = 0;     // iloÅ“Ã¦ linii
     string line;
 
     while(getline(cin, line) && lines < 2)
@@ -24,7 +17,7 @@ int main()
             if(isspace(line[i])) whites++;
             characters++;
        }
-       whites++;    // getline nie do³¹cza
+       whites++;    // getline nie doÂ³Â¹cza
        characters++;// znaku nowej linii
        lines++;
     }
